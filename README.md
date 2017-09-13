@@ -3,11 +3,12 @@ copy marketplace directory to the /var/www/html
 check following steps
 
 a2enmod rewrite
+
 /etc/apache2/sites-enabled/000-default.conf
 
 <Directory /var/www/>
     Options Indexes FollowSymLinks MultiViews
-    AllowOverride None
+    AllowOverride all
     Order allow,deny
     allow from all
 </Directory>
