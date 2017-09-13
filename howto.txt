@@ -7,7 +7,7 @@ a2enmod rewrite
 
 <Directory /var/www/>
     Options Indexes FollowSymLinks MultiViews
-    AllowOverride None
+    AllowOverride allow
     Order allow,deny
     allow from all
 </Directory>
