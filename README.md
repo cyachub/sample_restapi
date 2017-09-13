@@ -15,7 +15,6 @@ a2enmod rewrite
     Order allow,deny
     
     allow from all
-    
 </Directory>
 
 
