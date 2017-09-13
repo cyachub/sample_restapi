@@ -7,10 +7,15 @@ a2enmod rewrite
 /etc/apache2/sites-enabled/000-default.conf
 
 <Directory /var/www/>
+
     Options Indexes FollowSymLinks MultiViews
+    
     AllowOverride all
+    
     Order allow,deny
+    
     allow from all
+    
 </Directory>
 
 ---------------------
